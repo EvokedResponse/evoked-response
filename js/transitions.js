@@ -1,3 +1,12 @@
+$(".application_link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#applications-holder").offset().top,
+    },
+    1000
+  );
+});
+
 $(".application-button").click(function () {
   $("html, body").animate(
     {
