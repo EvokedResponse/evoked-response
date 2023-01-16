@@ -16,14 +16,7 @@ $(".application-button").click(function () {
   );
 });
 
-$(".ourScience-button").click(function () {
-  $("html, body").animate(
-    {
-      scrollTop: $("#ourScience-holder").offset().top,
-    },
-    1000
-  );
-});
+
 $(".team_link").click(function () {
   $("html, body").animate(
     {
