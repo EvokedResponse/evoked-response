@@ -24,7 +24,23 @@ $(".ourScience-button").click(function () {
     1000
   );
 });
+$(".team_link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#ourScience-holder").offset().top,
+    },
+    1000
+  );
+});
 $(".brainwave-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#brainwave-holder").offset().top,
+    },
+    1000
+  );
+});
+$(".works_link").click(function () {
   $("html, body").animate(
     {
       scrollTop: $("#brainwave-holder").offset().top,
@@ -41,8 +57,24 @@ $(".adam-button").click(function () {
     1000
   );
 });
+$(".team_link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#adam-holder").offset().top,
+    },
+    1000
+  );
+});
 
 $(".tryOurMusic-button").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#tryOurMusic-holder").offset().top,
+    },
+    1000
+  );
+});
+$(".try_link").click(function () {
   $("html, body").animate(
     {
       scrollTop: $("#tryOurMusic-holder").offset().top,
