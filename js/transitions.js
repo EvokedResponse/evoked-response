@@ -80,7 +80,7 @@ $('.calendly-weigit-button').hide();
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y >= 1200) {
-    $('.calendly-weigit-button').fadeIn();
+    $('.calendly-weigit-button').fadeIn(500);
   }  
 });
 
